@@ -1,0 +1,8 @@
+def garden(p):
+    p = int(input("How many pumpkin seeds have you planted?"))
+    print("Your", p, "pumpkin seeds are growing!")
+    while p!= 0:
+        print("You now have", p, "plump pumpkins!")
+        p-= 1
+        
+garden('p')
